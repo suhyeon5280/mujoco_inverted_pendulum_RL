@@ -1,0 +1,5 @@
+# 역진자 강화학습 예제 의존성
+# 설치: pip install -r requirements.txt
+
+gymnasium[mujoco]>=1.0     # InvertedPendulum-v5 는 gymnasium 1.0 이상에서 제공
+stable-baselines3>=2.4     # gymnasium 1.0 을 지원하는 버전 (PyTorch 함께 설치됨)
